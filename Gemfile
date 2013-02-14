@@ -25,6 +25,16 @@ gem 'jquery-rails'
 gem 'execjs'
 
 gem 'therubyracer'
+###################14/02/2013//////////// 09:07
+
+group :development do
+  gem 'rspec-rails', '2.5.0'
+end
+
+group :test do
+  gem 'rspec', '2.5.0'
+  gem 'webrat', '0.7.1'
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

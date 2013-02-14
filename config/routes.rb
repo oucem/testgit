@@ -1,4 +1,14 @@
 Validationtest::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/contacts"
+
+  resources :microposts
+
+
+  resources :users
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
